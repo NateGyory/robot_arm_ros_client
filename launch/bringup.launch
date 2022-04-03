@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="robot_arm_ros_client" name="app" type="app.py" output="screen">
+    </node>
+</launch>
