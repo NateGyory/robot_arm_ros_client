@@ -25,13 +25,13 @@ class ControllerSubscriber:
         command = None
         y_val = axes[1]
         x_val = axes[3]
-        is_base = 1 if abs(x_val) > 0 else 0
+        right_joystick = abs(x_val) > 0 and y_val == 0
+        left_joystick = abs(y_val) > 0 and x_val == 0
 
-        if is_base:
-            # Right joytick
+        if right_joystick:
             direction = 1 if x_val > 0 else -1
             command = Command('servo1', x_val)
-        else:
+        elif left_joystick:
             # Left joystick
             direction = 1 if x_val > 0 else -1
 
@@ -47,6 +47,7 @@ class ControllerSubscriber:
 
             motor = self.button_motor_map[idx]
             command = Command(motor, y_val)
+        else: return
 
         client.send_request(command)
 
