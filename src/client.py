@@ -2,11 +2,11 @@ import requests
 
 class Client:
     def __init__(self):
-        self.URL = "http://127.0.0.1:5000/"
-        self.json = { 'direction': None }
+        self.URL = "http://f814-138-67-68-28.ngrok.io/"
+        self.json = { 'motor_angle': None }
 
     def send_request(self, command):
-        self.json['direction'] = command.direction
+        self.json['motor_angle'] = command.motor_angle
         url = "%s%s" % (self.URL, command.motor)
 
         resp = requests.post(url, json = self.json)

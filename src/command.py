@@ -1,5 +1,4 @@
 class Command:
-    def __init__(self, motor, direction, error=False):
+    def __init__(self, motor, motor_angle):
         self.motor = motor
-        self.direction = direction
-        self.error = error
+        self.motor_angle = motor_angle
