@@ -49,7 +49,7 @@ class ControllerSubscriber:
             command = Command(motor, y_val)
         else: return
 
-        client.send_request(command)
+        self.client.send_request(command)
 
 
     def callback(self, data):
