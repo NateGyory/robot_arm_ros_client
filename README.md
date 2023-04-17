@@ -14,7 +14,7 @@ The robot is composed of:
 3. Raspberry Pi 4
 4. 16 Pin PWM Driver
 
-![IMG_5978](https://user-images.githubusercontent.com/45575958/232506312-c384d7f3-181b-42a8-8464-7c98c9fdc5c4.JPG)
+![IMG_5978](https://user-images.githubusercontent.com/45575958/232516272-0147a491-f3e1-4a41-ab33-6110470881d7.JPG)
 
 ## Xbox Controller Demo
 
