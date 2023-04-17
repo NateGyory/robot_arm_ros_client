@@ -14,15 +14,16 @@ The robot is composed of:
 3. Raspberry Pi 4
 4. 16 Pin PWM Driver
 
-![IMG_5978](https://user-images.githubusercontent.com/45575958/232506312-c384d7f3-181b-42a8-8464-7c98c9fdc5c4.JPG)
+![IMG_5978](https://user-images.githubusercontent.com/45575958/232506312-c384d7f3-181b-42a8-8464-7c98c9fdc5c4.JPG=300x600)
 
 ## Xbox Controller Demo
 
-https://user-images.githubusercontent.com/45575958/232511461-8255df1f-5332-4522-a536-d11fe38cad67.MOV
+https://user-images.githubusercontent.com/45575958/232514739-12455106-286d-4cee-b7bf-7481a750754d.mp4
 
 ## Inverse Kinematics Demo
+To run the IK functionality, type the desired end effector 3D coordinates into the terminal. Once the solver computes the joint angles, the robot arm angle configuration is displayed on the screen. Once you exit out of the display, the clinet sends the desired joint angles to the robot arm.
 
-https://user-images.githubusercontent.com/45575958/232512142-1b0855ac-ea05-4ff5-b2cb-cad3f4b8ac69.MOV
+https://user-images.githubusercontent.com/45575958/232514750-191f5e45-fc31-42a9-a48c-44c98696766e.mp4
 
 ## Requirements
 ROS noetic, ubuntu 20.04, python3.
