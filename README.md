@@ -18,7 +18,7 @@ The robot is composed of:
 
 ## Xbox Controller Demo
 
-https://user-images.githubusercontent.com/45575958/232514739-12455106-286d-4cee-b7bf-7481a750754d.mp4
+https://user-images.githubusercontent.com/45575958/232519944-8e0900b1-7683-47f6-a9d9-4791cea931b2.mp4
 
 ## Inverse Kinematics Demo
 To run the IK functionality, type the desired end effector 3D coordinates into the terminal. Once the solver computes the joint angles, the robot arm angle configuration is displayed on the screen. Once you exit out of the display, the clinet sends the desired joint angles to the robot arm.
