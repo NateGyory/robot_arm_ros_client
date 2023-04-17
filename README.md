@@ -1,7 +1,7 @@
 # robot_arm_ros_client
 ROS package which does:
 
-1. **Forward Kinmatics**: Sends control commands from an xbox controller to a raspberry pi server controlling the servo motors.
+1. **Forward Kinematics**: Sends control commands from an xbox controller to a raspberry pi server controlling the servo motors.
 2. **Inverse Kinematics**: Provide a desired end effector position, computes robot servo angles, sends angles to the raspberry pi server.  
 
 The server code which controls the motors can be found: https://github.com/NateGyory/raspberry_pi_server.git
